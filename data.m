@@ -1,5 +1,5 @@
 clc;clear
-load /home/xujunjie/work/convolutional-pose-machines-release/dataset/MPI/mpii_human_pose_v1_u12_1.mat
+load mpii_human_pose_v1_u12_1.mat
 
 annolist = RELEASE.annolist;
 train_num = find(RELEASE.img_train==1);
